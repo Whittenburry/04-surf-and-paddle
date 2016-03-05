@@ -10,3 +10,68 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.header-hero {
+  background: url(http://cdn.pcwallart.com/images/hawaii-beach-waves-wallpaper-4.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #f5ecf6;
+  padding: 4rem;
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 7rem;
+  margin-right: 7rem;
+
+}
+
+.navbar-logo {
+  flex-grow: 1;
+}
+
+.navbar-logo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-logo:hover {
+  color: #ff8787;
+}
+
+.nav-links {
+  margin: .5rem;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #ff8787;
+}
+
+.hero {
+  padding: 4 4 8 4;
+  align-self: center;
+  margin-bottom: 4rem;
+
+
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  background: -webkit-linear-gradient(#ff8787, #46a0bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__sub-title {
+  text-align: center;
+  margin-top: 0;
+}
