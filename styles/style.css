@@ -11,11 +11,19 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  color: darkgrey;
+}
+
+h1, h2, h3, h4 {
+  color: #0f60aa;
+}
+
 .header-hero {
   background: url(http://cdn.pcwallart.com/images/hawaii-beach-waves-wallpaper-4.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #f5ecf6;
-  padding: 9em;
+  padding: 0 0 9em;
 
 }
 
@@ -23,10 +31,12 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin: 0 7em 9.2em;
 }
 
+.navbar-logo__avatar {
+  border-radius: 50%;
+}
 .navbar-logo {
   flex-grow: 1;
 }
@@ -37,7 +47,7 @@ body {
 }
 
 .navbar-logo:hover {
-  color: #ff8787;
+  color: #f5ecf6;
 }
 
 .nav-links {
@@ -50,7 +60,7 @@ body {
 }
 
 .nav-links:hover {
-  color: #ff8787;
+  color: #f5ecf6;
 }
 
 .hero {
@@ -81,12 +91,7 @@ body {
   display: flex;
   width: 70%;
   min-width: 30rem;
-
 }
-
-/*.right-column {
-  margin-left: 5rem;
-}*/
 
 .left-column {
   width: 55%;
@@ -98,16 +103,63 @@ body {
   margin: auto;
 }
 
+.left-column__item-heading {
+  color:#0f60aa;
+}
+
+.left-column__item-heading__name-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column__item-heading__name-box__avatar {
+  border-radius: 50%;
+  margin-right: .5em;
+}
+
+.left-column__item-name {
+  color:#0f60aa;
+  margin-right: 1em;
+}
+
+.left-column__item-name__description {
+  color: silver;
+}
+
+.left-column__item-name__description-two {
+  color: silver;
+  text-decoration: underline;
+}
+
+.left-column__item-heading-two {
+  border-left: .2em solid darkgray;
+  padding-left: .5em;
+  margin: 3em 0 3em .5em;
+  font-size: 1.5em;
+  color: #51adfe;
+}
+
 .left-column__item-social__item {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .button {
-  margin: auto;
-  background: blue;
-  color: silver;
-  margin-right: 2em;
-  padding: 1em;
+  background: silver;
+  color: white;
+  padding: .5em;
+  margin: 1em;
+  min-width:
+}
+
+.button {
+  background: #9ca9bb;
+  color: #e7e7e7;
+  margin: 0.5em;
+  padding: 0 2em;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 1em;
 }
 
 .right-column {
@@ -131,12 +183,13 @@ body {
 
 .right-column__item-name {
   margin: 0;
+  color:#0f60aa;
 }
 
 .right-column__item-social__links {
   margin: 0;
   margin-bottom: 2em;
-
+  color: silver;
 }
 
 .social__links {
@@ -155,4 +208,6 @@ body {
 .right-column__item__about-this-link {
   text-align: right;
   margin: 0;
+  color:silver;
+  text-decoration: underline;
 }
