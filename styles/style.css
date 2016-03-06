@@ -15,7 +15,7 @@ body {
   background: url(http://cdn.pcwallart.com/images/hawaii-beach-waves-wallpaper-4.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #f5ecf6;
-  padding: 4rem;
+  padding: 9em;
 
 }
 
@@ -25,7 +25,6 @@ body {
   align-items: center;
   margin-left: 7rem;
   margin-right: 7rem;
-
 }
 
 .navbar-logo {
@@ -74,4 +73,86 @@ body {
 .hero__sub-title {
   text-align: center;
   margin-top: 0;
+}
+
+.main {
+  min-height: 100vh;
+  margin: 5rem auto 0;
+  display: flex;
+  width: 70%;
+  min-width: 30rem;
+
+}
+
+/*.right-column {
+  margin-left: 5rem;
+}*/
+
+.left-column {
+  width: 55%;
+  max-width: 65%;
+  padding-right: 4em;
+}
+
+.left-column__item {
+  margin: auto;
+}
+
+.left-column__item-social__item {
+  display: flex;
+}
+
+.button {
+  margin: auto;
+  background: blue;
+  color: silver;
+  margin-right: 2em;
+  padding: 1em;
+}
+
+.right-column {
+  width: 55%;
+  max-width: calc(75% / 2 - 2rem);
+  margin-left: 5em;
+}
+
+.right-column-item {
+  display: flex;
+  justify-content: center;
+}
+
+.right-column__item-profile {
+  text-align: center;
+}
+
+.right-column__item-avatar {
+  border-radius: 50%;
+}
+
+.right-column__item-name {
+  margin: 0;
+}
+
+.right-column__item-social__links {
+  margin: 0;
+  margin-bottom: 2em;
+
+}
+
+.social__links {
+  display: inline;
+  padding: 1em;
+}
+
+.right-column__item-big-pic-link {
+ text-align: center;
+}
+
+.right-column__item__big-picture {
+  width: 100%;
+}
+
+.right-column__item__about-this-link {
+  text-align: right;
+  margin: 0;
 }
