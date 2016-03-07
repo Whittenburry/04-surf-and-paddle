@@ -19,6 +19,16 @@ h1, h2, h3, h4 {
   color: #0f60aa;
 }
 
+.container {
+  width: 100%;
+}
+
+/*********************
+
+        HEADER-HERO
+
+**********************/
+
 .header-hero {
   background: url(http://cdn.pcwallart.com/images/hawaii-beach-waves-wallpaper-4.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -36,6 +46,7 @@ h1, h2, h3, h4 {
 
 .navbar-logo__avatar {
   border-radius: 50%;
+  padding-right: 1em;
 }
 .navbar-logo {
   flex-grow: 1;
@@ -81,17 +92,30 @@ h1, h2, h3, h4 {
 }
 
 .hero__sub-title {
-  text-align: center;
+  text-align: right;
   margin-top: 0;
+  margin: auto;
+  width:25em;
 }
+
+/**********************
+
+          MAIN
+
+**********************/
 
 .main {
   min-height: 100vh;
-  margin: 5rem auto 0;
+  margin: 5em 12em 0;
   display: flex;
-  width: 70%;
   min-width: 30rem;
 }
+
+/**********************
+
+        LEFT COLUMN
+
+***********************/
 
 .left-column {
   width: 55%;
@@ -162,6 +186,12 @@ h1, h2, h3, h4 {
   font-size: 1em;
 }
 
+/*************************
+
+      RIGHT COLUMN
+
+**************************/
+
 .right-column {
   width: 55%;
   max-width: calc(75% / 2 - 2rem);
@@ -210,4 +240,67 @@ h1, h2, h3, h4 {
   margin: 0;
   color:silver;
   text-decoration: underline;
+}
+
+/******************************
+
+          FOOOOOTER
+
+*******************************/
+
+.footer {
+  background:;
+}
+
+.footer-title {
+  color:#0f60aa;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.footer-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-image__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-image__picture-boxes {
+  position: relative;
+}
+
+.footer-image__text {
+  position: absolute;
+  top: 50%;
+}
+
+.footer-navbar {
+  display: flex;
+  flex-direction: row;
+  background: #0f60aa;
+}
+
+.footer-navbar__logo {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.footer-navbar__links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-nav__links {
+  padding: 0 1em;
+}
+
+.footer-navbar__image-logo {
+  border-radius: 50%;
+  padding-right: 1em;
 }
